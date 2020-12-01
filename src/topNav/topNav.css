@@ -1,0 +1,13 @@
+ul {
+    list-style-type:none
+}
+
+.tab-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapper {
+    max-width: 700px;
+    margin: 0 auto;
+}
