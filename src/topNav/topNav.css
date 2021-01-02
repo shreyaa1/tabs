@@ -2,6 +2,10 @@ ul {
     list-style-type:none
 }
 
+li {
+    min-width: 100px;
+    text-align: center;
+}
 .tab-list {
     display: flex;
     justify-content: space-between;

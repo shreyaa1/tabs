@@ -54,6 +54,7 @@ export const MainTab = () => {
 
     return <div className='wrapper'>
         <ul className='tab-list'>
+            <div>left</div>
             {list().map((tab, index) => {
                 return <>
                     <li key={tab} onClick={() => renderChild(index)}>
@@ -62,6 +63,7 @@ export const MainTab = () => {
                 </>
             }
             )}
+                <div>right</div>
         </ul>
 
         <div>
@@ -78,3 +80,10 @@ export const MainTab = () => {
 
     </div>
 } 
+
+
+
+
+
+
+
